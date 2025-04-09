@@ -1,0 +1,33 @@
+1. Importing the packages
+2. Exploring the dataset - Style Prediction
+3. Data processing using pandas dataframe
+	- converting str to float and integer
+	- Dropping or replacing the null values
+4. Visualization using seaborn & matplotlib
+	- Displaying the Outcome Label
+5. Label Encoding
+	- Label Encoder to Object to int
+6. Feature Selection using pandas iloc
+7. Splitting the data train and test 
+8. Building the model
+	- Matrix Factorization via LDA
+	- SVM
+	- Random Forest
+	- Decision Tree
+	- Voting Classifier - (SVC + RF + DT)
+
+9. Training the model
+10. Building the model with Voting Classifier since it gives better score around 100% comparing with Other Models 
+11. Flask Framework with Sqlite for signup and signin
+12. Importing the packages
+13. User gives input as Feature Values 
+14. The given input is preprocessed for prediction
+15. Trained model is used for prediction
+16. Final outcome is displayed through frontend
+
+Extension
+----------
+
+In the base paper, the author mentioned to use Machine Learning models (like MF and AI based proposed RF),in which MF got 93.48%, 
+As an extension we have applied Voting Classifier,SVM and DT for analysis the data, in which Voting Classifier got 100% 
+So with the Voting Classifier we build the model used for predicting the result. 
